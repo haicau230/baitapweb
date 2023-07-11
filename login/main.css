@@ -1,0 +1,226 @@
+/* start slider main */
+.slider_main img{
+    display: inline-block;
+    width: 100%  ;
+    height: 100%;
+
+}
+main{
+    background: #212121;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.slider_collect{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slider_main{
+    
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.slider_collect .slick-dots li button{
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #acacac;
+}
+.slider_collect .slick-dots .slick-active button{
+    background-color: #fff;
+ }
+.slider_main .slick-dots{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 44%;
+    display: flex !important;
+
+}
+.slider_main .slick-dots .slick-active{
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .slick-dots .slick-active button{
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    display: block;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border:none;
+    margin: 0 3px;
+ }
+.slick-dots li button{
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    border:none;
+    margin: 0 3px;
+}
+.slick-prev2 , .slick-next2{
+    position: absolute; z-index: -10;
+
+}
+.slick-next2{
+    top: 0 ;
+}
+
+
+/* end slider main */
+
+
+.login_title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    
+}
+.login ,.logout{
+    margin: 50px auto;
+}
+.logout{
+    display: none;
+}
+
+.login_bd{
+    border: 2px solid #999;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.login_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_form_left ,.login_form_right{
+    width:calc(50% - 12px);
+}
+.login_form_left input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #b9b9b9;
+    border: 1px solid #ccc;
+    background-color: #212121;
+}
+.login_form_right{
+    height: fit-content;
+}
+.login_form_right h3{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login_form_right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    margin: 0 0 10px;
+    font-weight: 100;
+}
+.login_form_left p{
+    line-height: 1.42857143;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.btn_login,.btn_logout ,.btn_logout2{
+    background: #ddd;
+    border-color: #ddd;
+    padding:8px 20px;
+    border-radius: 0;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 15px;
+    border: none;
+    color: #282828;
+    
+}
+
+.logout_bd{
+    max-width: 760px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143
+}
+.logout_acout{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.logout_acout_item input{
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    color: #fff;
+    border: 1px solid #999 !important;
+    width: 100%;
+
+}
+.input1{
+    width: 40%;
+}
+.input2{
+    width: 20%;
+}
+.input3{
+    margin-top: 42px;
+}
+.input4{
+    width: 100%;
+}
+.input5{
+    width: 48%;
+}
+.check_logout{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex_end{
+    display: flex;
+    justify-content: flex-end;
+}
