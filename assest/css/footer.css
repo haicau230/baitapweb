@@ -1,0 +1,114 @@
+footer{
+    background: #212121;
+    padding: 50px 0 0 0;
+    color: #fff;
+    border-top: 1px solid #585858;
+}
+.footer{
+    display: flex;
+}
+.flex1{
+    width: calc(100% / 3);
+}
+.footer_logo img{
+    display: block;
+    width: 175px;
+    height: auto;
+}
+.footer_system h2, .footer_follow h2{
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f1f1f1;
+    display: inline-block;
+}
+.list_system{
+    padding: 0;
+}
+.item_system{
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #ddd;
+    box-sizing: border-box;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1;
+}
+.item_system i{
+    padding-right: 5px;
+}
+.follow-icon{
+    display: flex;
+}
+.follow-icon i , .follow-icon img{
+    display: block;
+    font-size: 24px !important;
+    height: 24px;
+    padding-right: 15px;
+}
+.fa-facebook-f{
+    color: #4267B2
+}
+.fa-youtube{
+    color: #CD222A
+}
+.page_shop img{
+    display: block;
+    width: 90%;
+    border: 1px solid #fff;
+    
+}
+.page_shop {
+    margin-top: 10px;
+    position: relative;
+}
+.page_facebook{
+    display: flex;
+    align-items: center;
+   z-index: 10;
+    padding: 15px;
+    position: absolute;
+    top : 0;
+    left: 0;
+}
+.page_facebook img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+   
+}
+.zuzu{
+    padding-left: 10px;
+}
+.zuzu p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.btn-zuzu{
+    color: #4b4f56;
+}
+.btn-zuzu i{
+    color: #4267B2;
+}
+
+.zuzu a {
+    color: #fff;
+}
+.page_shop-pss{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 5;
+background-color: #212121;
+opacity: 0.3;
+}
+.pp{
+    margin: 0;
+    padding: 50px 0 10px 0;
+    font-size: 11px;
+}
